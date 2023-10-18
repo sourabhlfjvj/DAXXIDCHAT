@@ -438,7 +438,7 @@ async def Daxxprivatesticker(client: Client, message: Message):
                await message.reply_sticker(f"{hey}")
                
 
-client.run()￼Enterasync def Daxxprivate(client: Client, message: Message):
+client.run()async def Daxxprivate(client: Client, message: Message):
 
    chatdb = MongoClient(MONGO_URL)
    chatai = chatdb["Word"]["WordDb"]
